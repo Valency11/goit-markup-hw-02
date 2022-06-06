@@ -5,30 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#">WebStudio</a>
-        <ul>
-          <li><a href="#">Студия</a></li>
-          <li><a href="#">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      <div class="header-container">
+        <div class="left-container">
+          <a href="#" class="logo-link"><span class="logo">Web</span>Studio</a>
+
+          <nav class="nav-container">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#">Студия</a></li>
+              <li class="nav-item"><a href="portfolio.html">Портфолио</a></li>
+              <li class="nav-item"><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="right-container">
+          <ul class="nav-list">
+            <li>
+              <a class="nav-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="main-section">
+        <div class="main-section-container">
+          <div class="main-section-content">
+            <h1>
+              <span>Эффективные решения</span>
+              <span>для вашего бизнеса</span>
+            </h1>
+            <div class="btn-container">
+              <button type="button">Заказать услугу</button>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
-        <!--тут не зовсім зрозуміло, який заголовок секції давати, в цієї секції начебто немає заголовка, чи я щось не так розумію :)-->
         <ul>
           <li>
             <h3>Внимание к деталям</h3>
@@ -62,16 +90,16 @@
       </section>
     </main>
 
-    <section>
+    <!-- <section>
       <h2>Чем мы занимаемся</h2>
       <ul>
         <li><img src="./images/img1.jpg" width="370" alt="img1" /></li>
         <li><img src="./images/img2.jpg" width="370" alt="img2" /></li>
         <li><img src="./images/img3.jpg" width="370" alt="img3" /></li>
       </ul>
-    </section>
+    </section> -->
 
-    <section>
+    <!-- <section>
       <h2>Наша команда</h2>
 
       <ul>
@@ -101,8 +129,9 @@
           <p>UI Designer</p>
         </li>
       </ul>
-    </section>
-    <footer>
+    </section> -->
+
+    <!-- <footer>
       <a href="#webstudio">Webstudio</a>
 
       <address>
@@ -117,6 +146,6 @@
           <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
-    </footer>
+    </footer> -->
   </body>
 </html>
